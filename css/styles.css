@@ -12,8 +12,35 @@
 
 #app {
     font-family: Raleway, sans-serif;
+    background-color: #b07cf7;
+    min-height: 100vh;
 }
 
-span {
-    font-weight: 500;
+.app-blog {
+    padding: 100px 0;
+}
+
+.blog-header {
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 90px;
+    margin-bottom: 25px;
+}
+
+.blog-description {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.blog-post {
+    height: 307px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
